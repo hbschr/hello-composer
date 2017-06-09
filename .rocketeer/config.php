@@ -50,7 +50,7 @@ return [
             'host'      => 'localhost',
             'username'  => 'heiko',
             'password'  => '',
-            'key'       => '/home/heiko/.ssh/id_rsa_no_pw',
+            'key'       => '~/.ssh/id_rsa_no_pw',
             'keyphrase' => '',
             'agent'     => '',
             'db_role'   => true,

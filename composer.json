@@ -26,9 +26,11 @@
             "Tests\\": "tests/"
         }
     },
-	"scripts": {
+    "scripts": {
         "start": "php -S 0.0.0.0:8080 -t public public/index.php",
-        "test": "phpunit"
-	}
+        "test": "phpunit",
+        "deploy": "rocketeer deploy",
+        "deploy_prod": "rocketeer deploy --on='production'"
+    }
 
 }
