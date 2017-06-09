@@ -37,16 +37,16 @@ return [
     // to track files with credentials : Rocketeer will prompt you for your credentials
     // and store them locally
     'connections'      => [
-        'develop' => [
-            'host'      => 'localhost',
-            'username'  => 'heiko',
+        'production' => [
+            'host'      => '10.254.5.140',
+            'username'  => 'vmadmin',
             'password'  => '',
-            'key'       => '/home/heiko/.ssh/id_rsa_no_pw',
+            'key'       => '/var/lib/jenkins/.ssh/id_rsa',
             'keyphrase' => '',
             'agent'     => '',
             'db_role'   => true,
         ],
-        'production' => [
+        'develop' => [
             'host'      => 'localhost',
             'username'  => 'heiko',
             'password'  => '',
